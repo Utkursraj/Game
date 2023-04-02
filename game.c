@@ -31,6 +31,7 @@ int main()
     }
 
     printf("Enter 's' for snake, 'w' for water, 'g' for gun\n");
+    printf("Helli");
     scanf("%c", &you);
     int result = snakeWaterGun(you, comp);
     if (result == 0){
